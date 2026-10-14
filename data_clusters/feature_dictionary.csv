@@ -1,0 +1,254 @@
+feature,family,value,records
+f0000,action,environmental:category:environmental,2
+f0001,action,environmental:variety:Fire,1
+f0002,action,environmental:variety:Hurricane,1
+f0003,action,error:category:error,1402
+f0004,action,error:variety:Capacity shortage,1
+f0005,action,error:variety:Classification error,4
+f0006,action,error:variety:Data entry error,4
+f0007,action,error:variety:Disposal error,196
+f0008,action,error:variety:Gaffe,12
+f0009,action,error:variety:Loss,100
+f0010,action,error:variety:Maintenance error,3
+f0011,action,error:variety:Malfunction,11
+f0012,action,error:variety:Misconfiguration,265
+f0013,action,error:variety:Misdelivery,455
+f0014,action,error:variety:Misinformation,1
+f0015,action,error:variety:Other,39
+f0016,action,error:variety:Physical accidents,1
+f0017,action,error:variety:Programming error,39
+f0018,action,error:variety:Publishing error,279
+f0019,action,error:vector:Carelessness,483
+f0020,action,error:vector:Inadequate personnel,6
+f0021,action,error:vector:Inadequate processes,28
+f0022,action,error:vector:Inadequate technology,8
+f0023,action,error:vector:Other,10
+f0024,action,error:vector:Random error,7
+f0025,action,hacking:category:hacking,2222
+f0026,action,hacking:variety:Abuse of functionality,30
+f0027,action,hacking:variety:AitM,7
+f0028,action,hacking:variety:Backdoor,747
+f0029,action,hacking:variety:Brute force,124
+f0030,action,hacking:variety:Buffer overflow,2
+f0031,action,hacking:variety:Cryptanalysis,3
+f0032,action,hacking:variety:DoS,4
+f0033,action,hacking:variety:Exploit misconfig,5
+f0034,action,hacking:variety:Exploit vuln,947
+f0035,action,hacking:variety:Forced browsing,13
+f0036,action,hacking:variety:OS commanding,4
+f0037,action,hacking:variety:Other,26
+f0038,action,hacking:variety:Path traversal,4
+f0039,action,hacking:variety:Profile host,1
+f0040,action,hacking:variety:Reverse engineering,1
+f0041,action,hacking:variety:SQLi,90
+f0042,action,hacking:variety:SSI injection,2
+f0043,action,hacking:variety:Session fixation,1
+f0044,action,hacking:variety:Session prediction,1
+f0045,action,hacking:variety:Session replay,1
+f0046,action,hacking:variety:Use of stolen creds,312
+f0047,action,hacking:variety:XSS,2
+f0048,action,hacking:vector:3rd party desktop,1
+f0049,action,hacking:vector:Backdoor,189
+f0050,action,hacking:vector:Command shell,10
+f0051,action,hacking:vector:Desktop sharing,7
+f0052,action,hacking:vector:Desktop sharing software,7
+f0053,action,hacking:vector:Other,20
+f0054,action,hacking:vector:Partner,20
+f0055,action,hacking:vector:Physical access,9
+f0056,action,hacking:vector:VPN,7
+f0057,action,hacking:vector:Web application,1532
+f0058,action,malware:category:malware,1180
+f0059,action,malware:variety:Adminware,5
+f0060,action,malware:variety:Adware,1
+f0061,action,malware:variety:Backdoor,945
+f0062,action,malware:variety:Backdoor or C2,955
+f0063,action,malware:variety:Brute force,88
+f0064,action,malware:variety:C2,173
+f0065,action,malware:variety:Capture app data,42
+f0066,action,malware:variety:Capture stored data,171
+f0067,action,malware:variety:Click fraud and cryptocurrency mining,1
+f0068,action,malware:variety:Client-side attack,1
+f0069,action,malware:variety:Disable controls,68
+f0070,action,malware:variety:Downloader,156
+f0071,action,malware:variety:Exploit vuln,90
+f0072,action,malware:variety:Export data,107
+f0073,action,malware:variety:Other,61
+f0074,action,malware:variety:Packet sniffer,7
+f0075,action,malware:variety:Password dumper,4
+f0076,action,malware:variety:RAM scraper,21
+f0077,action,malware:variety:RAT,3
+f0078,action,malware:variety:Ransomware,805
+f0079,action,malware:variety:Rootkit,61
+f0080,action,malware:variety:Scan network,99
+f0081,action,malware:variety:Spam,3
+f0082,action,malware:variety:Spyware/Keylogger,118
+f0083,action,malware:variety:Trojan,3
+f0084,action,malware:vector:Direct install,823
+f0085,action,malware:vector:Download by malware,8
+f0086,action,malware:vector:Email,1
+f0087,action,malware:vector:Email attachment,170
+f0088,action,malware:vector:Email link,10
+f0089,action,malware:vector:Email unknown,1
+f0090,action,malware:vector:Network propagation,1
+f0091,action,malware:vector:Other,2
+f0092,action,malware:vector:Remote injection,743
+f0093,action,malware:vector:Removable media,2
+f0094,action,malware:vector:Software update,1
+f0095,action,malware:vector:Web application,18
+f0096,action,malware:vector:Web application - download,1
+f0097,action,malware:vector:Web application - drive-by,18
+f0098,action,misuse:category:misuse,1131
+f0099,action,misuse:variety:Data mishandling,138
+f0100,action,misuse:variety:Email misuse,18
+f0101,action,misuse:variety:Illicit content,4
+f0102,action,misuse:variety:Knowledge abuse,134
+f0103,action,misuse:variety:Net misuse,14
+f0104,action,misuse:variety:Other,4
+f0105,action,misuse:variety:Possession abuse,192
+f0106,action,misuse:variety:Privilege abuse,759
+f0107,action,misuse:variety:Snap picture,7
+f0108,action,misuse:variety:Unapproved hardware,43
+f0109,action,misuse:variety:Unapproved software,6
+f0110,action,misuse:variety:Unapproved workaround,5
+f0111,action,misuse:vector:LAN access,720
+f0112,action,misuse:vector:Non-corporate,23
+f0113,action,misuse:vector:Other,18
+f0114,action,misuse:vector:Physical access,315
+f0115,action,misuse:vector:Remote access,32
+f0116,action,misuse:vector:Web application,2
+f0117,action,physical:category:physical,544
+f0118,action,physical:variety:Assault,19
+f0119,action,physical:variety:Bypassed controls,12
+f0120,action,physical:variety:Connection,2
+f0121,action,physical:variety:Disabled controls,110
+f0122,action,physical:variety:Other,1
+f0123,action,physical:variety:Skimmer,127
+f0124,action,physical:variety:Snooping,10
+f0125,action,physical:variety:Surveillance,36
+f0126,action,physical:variety:Tampering,114
+f0127,action,physical:variety:Theft,262
+f0128,action,physical:variety:Wiretapping,2
+f0129,action,physical:vector:Other,4
+f0130,action,physical:vector:Partner facility,32
+f0131,action,physical:vector:Partner vehicle,6
+f0132,action,physical:vector:Personal residence,13
+f0133,action,physical:vector:Personal vehicle,46
+f0134,action,physical:vector:Public facility,48
+f0135,action,physical:vector:Public vehicle,2
+f0136,action,physical:vector:Victim grounds,72
+f0137,action,physical:vector:Victim public area,107
+f0138,action,physical:vector:Victim secure area,31
+f0139,action,physical:vector:Victim work area,122
+f0140,action,social:category:social,472
+f0141,action,social:variety:Baiting,1
+f0142,action,social:variety:Bribery,51
+f0143,action,social:variety:Elicitation,2
+f0144,action,social:variety:Extortion,14
+f0145,action,social:variety:Forgery,13
+f0146,action,social:variety:Influence,12
+f0147,action,social:variety:Other,9
+f0148,action,social:variety:Phishing,330
+f0149,action,social:variety:Pretexting,41
+f0150,action,social:variety:Propaganda,1
+f0151,action,social:variety:Scam,2
+f0152,action,social:variety:Spam,2
+f0153,action,social:vector:Documents,13
+f0154,action,social:vector:Email,346
+f0155,action,social:vector:IM,2
+f0156,action,social:vector:In-person,42
+f0157,action,social:vector:Phone,15
+f0158,action,social:vector:Removable media,1
+f0159,action,social:vector:SMS,13
+f0160,action,social:vector:Social media,2
+f0161,action,social:vector:Software,1
+f0162,action,social:vector:Web application,7
+f0163,actor,external,2959
+f0164,actor,internal,2339
+f0165,actor,partner,219
+f0166,asset,E - Other,1
+f0167,asset,M - Disk drive,16
+f0168,asset,M - Disk media,21
+f0169,asset,M - Documents,899
+f0170,asset,M - Fax,1
+f0171,asset,M - Flash drive,37
+f0172,asset,M - Other,4
+f0173,asset,M - Payment card,111
+f0174,asset,M - Smart card,2
+f0175,asset,M - Tapes,9
+f0176,asset,N - Access reader,1
+f0177,asset,N - Camera,4
+f0178,asset,N - Firewall,6
+f0179,asset,N - IDS,1
+f0180,asset,N - PBX,1
+f0181,asset,N - Private WAN,2
+f0182,asset,N - Public WAN,1
+f0183,asset,N - Router or switch,99
+f0184,asset,N - SAN,1
+f0185,asset,N - Telephone,1
+f0186,asset,N - WLAN,4
+f0187,asset,Other,10
+f0188,asset,P - Call center,7
+f0189,asset,P - Cashier,13
+f0190,asset,P - Customer,31
+f0191,asset,P - Developer,1
+f0192,asset,P - End-user,3
+f0193,asset,P - End-user or employee,93
+f0194,asset,P - Executive,21
+f0195,asset,P - Finance,21
+f0196,asset,P - Former employee,3
+f0197,asset,P - Guard,1
+f0198,asset,P - Helpdesk,4
+f0199,asset,P - Human resources,22
+f0200,asset,P - Maintenance,2
+f0201,asset,P - Manager,4
+f0202,asset,P - Other,24
+f0203,asset,P - Partner,4
+f0204,asset,P - System admin,22
+f0205,asset,S - Authentication,14
+f0206,asset,S - Backup,5
+f0207,asset,S - Code repository,25
+f0208,asset,S - DNS,7
+f0209,asset,S - Database,1331
+f0210,asset,S - Directory,4
+f0211,asset,S - File,868
+f0212,asset,S - ICS,3
+f0213,asset,S - Log,2
+f0214,asset,S - Mail,260
+f0215,asset,S - Mainframe,7
+f0216,asset,S - Other,12
+f0217,asset,S - POS controller,33
+f0218,asset,S - Payment switch,3
+f0219,asset,S - Print,1
+f0220,asset,S - Proxy,1
+f0221,asset,S - Remote access,8
+f0222,asset,S - VM host,2
+f0223,asset,S - Web application,1826
+f0224,asset,T - ATM,154
+f0225,asset,T - Gas terminal,62
+f0226,asset,T - Kiosk,6
+f0227,asset,T - PED pad,7
+f0228,asset,U - Desktop,421
+f0229,asset,U - Desktop or laptop,505
+f0230,asset,U - Laptop,77
+f0231,asset,U - Media,5
+f0232,asset,U - Mobile phone,115
+f0233,asset,U - Other,5
+f0234,asset,U - POS terminal,59
+f0235,asset,U - Peripheral,2
+f0236,asset,U - Tablet,1
+f0237,asset,U - Telephone,6
+f0238,data,Bank,228
+f0239,data,Classified,137
+f0240,data,Copyrighted,3
+f0241,data,Credentials,614
+f0242,data,Digital certificate,1
+f0243,data,Internal,396
+f0244,data,Medical,1353
+f0245,data,Other,55
+f0246,data,Payment,652
+f0247,data,Personal,2910
+f0248,data,Secrets,237
+f0249,data,Sensitive Personal,2
+f0250,data,Source code,12
+f0251,data,System,185
+f0252,data,Virtual currency,7

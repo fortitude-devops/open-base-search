@@ -1,0 +1,267 @@
+[
+  {
+    "internal_valid": true,
+    "record_checks": [
+      {
+        "record_index": 0,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "20d3740e735b89f4d60ba4ab2e71c281a87ab186342b90f56d7ecd2b892f3f86",
+        "calculated_hash": "20d3740e735b89f4d60ba4ab2e71c281a87ab186342b90f56d7ecd2b892f3f86",
+        "hash_ok": true,
+        "record_valid": true
+      },
+      {
+        "record_index": 1,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "b3cffee9d289cbae93fcb4070fc7ef11f9114dfe1a4d5e4b9edd4e49bcc017e4",
+        "calculated_hash": "b3cffee9d289cbae93fcb4070fc7ef11f9114dfe1a4d5e4b9edd4e49bcc017e4",
+        "hash_ok": true,
+        "record_valid": true
+      },
+      {
+        "record_index": 2,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "799523a119216a5e43db82f1ca0079b7e68c1ed631bea022d98ee598cb9d9cdd",
+        "calculated_hash": "799523a119216a5e43db82f1ca0079b7e68c1ed631bea022d98ee598cb9d9cdd",
+        "hash_ok": true,
+        "record_valid": true
+      },
+      {
+        "record_index": 3,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "04583a9613dd8a4f9d3aff7485a2c104a86c87bf22419a0b9809c37fb538aea7",
+        "calculated_hash": "04583a9613dd8a4f9d3aff7485a2c104a86c87bf22419a0b9809c37fb538aea7",
+        "hash_ok": true,
+        "record_valid": true
+      }
+    ],
+    "observed_checkpoint": {
+      "format": "openbasesearch-audit-v1",
+      "count": 4,
+      "root": "04583a9613dd8a4f9d3aff7485a2c104a86c87bf22419a0b9809c37fb538aea7"
+    },
+    "trusted_checkpoint": {
+      "format": "openbasesearch-audit-v1",
+      "count": 4,
+      "root": "04583a9613dd8a4f9d3aff7485a2c104a86c87bf22419a0b9809c37fb538aea7"
+    },
+    "count_matches": true,
+    "root_matches": true,
+    "format_matches": true,
+    "checkpoint_matches": true,
+    "accepted": true,
+    "scenario": "unchanged",
+    "label_ru": "Неизменный журнал",
+    "expected_internal_valid": true,
+    "expected_checkpoint_matches": true,
+    "expected_outcome_observed": true
+  },
+  {
+    "internal_valid": false,
+    "record_checks": [
+      {
+        "record_index": 0,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "20d3740e735b89f4d60ba4ab2e71c281a87ab186342b90f56d7ecd2b892f3f86",
+        "calculated_hash": "20d3740e735b89f4d60ba4ab2e71c281a87ab186342b90f56d7ecd2b892f3f86",
+        "hash_ok": true,
+        "record_valid": true
+      },
+      {
+        "record_index": 1,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "b3cffee9d289cbae93fcb4070fc7ef11f9114dfe1a4d5e4b9edd4e49bcc017e4",
+        "calculated_hash": "f5ea2e852eac4aa7615a92e24189c6b7063f6f4872ae9c3abb124a9fb55caa1f",
+        "hash_ok": false,
+        "record_valid": false
+      },
+      {
+        "record_index": 2,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "799523a119216a5e43db82f1ca0079b7e68c1ed631bea022d98ee598cb9d9cdd",
+        "calculated_hash": "799523a119216a5e43db82f1ca0079b7e68c1ed631bea022d98ee598cb9d9cdd",
+        "hash_ok": true,
+        "record_valid": true
+      },
+      {
+        "record_index": 3,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "04583a9613dd8a4f9d3aff7485a2c104a86c87bf22419a0b9809c37fb538aea7",
+        "calculated_hash": "04583a9613dd8a4f9d3aff7485a2c104a86c87bf22419a0b9809c37fb538aea7",
+        "hash_ok": true,
+        "record_valid": true
+      }
+    ],
+    "observed_checkpoint": {
+      "format": "openbasesearch-audit-v1",
+      "count": 4,
+      "root": "04583a9613dd8a4f9d3aff7485a2c104a86c87bf22419a0b9809c37fb538aea7"
+    },
+    "trusted_checkpoint": {
+      "format": "openbasesearch-audit-v1",
+      "count": 4,
+      "root": "04583a9613dd8a4f9d3aff7485a2c104a86c87bf22419a0b9809c37fb538aea7"
+    },
+    "count_matches": true,
+    "root_matches": true,
+    "format_matches": true,
+    "checkpoint_matches": true,
+    "accepted": false,
+    "scenario": "tamper_without_rehash",
+    "label_ru": "Подмена без пересчёта",
+    "expected_internal_valid": false,
+    "expected_checkpoint_matches": true,
+    "expected_outcome_observed": true
+  },
+  {
+    "internal_valid": true,
+    "record_checks": [
+      {
+        "record_index": 0,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "20d3740e735b89f4d60ba4ab2e71c281a87ab186342b90f56d7ecd2b892f3f86",
+        "calculated_hash": "20d3740e735b89f4d60ba4ab2e71c281a87ab186342b90f56d7ecd2b892f3f86",
+        "hash_ok": true,
+        "record_valid": true
+      },
+      {
+        "record_index": 1,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "f5ea2e852eac4aa7615a92e24189c6b7063f6f4872ae9c3abb124a9fb55caa1f",
+        "calculated_hash": "f5ea2e852eac4aa7615a92e24189c6b7063f6f4872ae9c3abb124a9fb55caa1f",
+        "hash_ok": true,
+        "record_valid": true
+      },
+      {
+        "record_index": 2,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "9d98b2afccc5166ed3ae849b0657b930f37a3df8d2e194074e3309d07c68593b",
+        "calculated_hash": "9d98b2afccc5166ed3ae849b0657b930f37a3df8d2e194074e3309d07c68593b",
+        "hash_ok": true,
+        "record_valid": true
+      },
+      {
+        "record_index": 3,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "daba7757a1c24a0f3a14f7bb0dec15779fae6d120e3338b805fd76cf6c9b90cd",
+        "calculated_hash": "daba7757a1c24a0f3a14f7bb0dec15779fae6d120e3338b805fd76cf6c9b90cd",
+        "hash_ok": true,
+        "record_valid": true
+      }
+    ],
+    "observed_checkpoint": {
+      "format": "openbasesearch-audit-v1",
+      "count": 4,
+      "root": "daba7757a1c24a0f3a14f7bb0dec15779fae6d120e3338b805fd76cf6c9b90cd"
+    },
+    "trusted_checkpoint": {
+      "format": "openbasesearch-audit-v1",
+      "count": 4,
+      "root": "04583a9613dd8a4f9d3aff7485a2c104a86c87bf22419a0b9809c37fb538aea7"
+    },
+    "count_matches": true,
+    "root_matches": false,
+    "format_matches": true,
+    "checkpoint_matches": false,
+    "accepted": false,
+    "scenario": "tamper_with_full_rehash",
+    "label_ru": "Подмена с полным пересчётом",
+    "expected_internal_valid": true,
+    "expected_checkpoint_matches": false,
+    "expected_outcome_observed": true
+  },
+  {
+    "internal_valid": true,
+    "record_checks": [
+      {
+        "record_index": 0,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "20d3740e735b89f4d60ba4ab2e71c281a87ab186342b90f56d7ecd2b892f3f86",
+        "calculated_hash": "20d3740e735b89f4d60ba4ab2e71c281a87ab186342b90f56d7ecd2b892f3f86",
+        "hash_ok": true,
+        "record_valid": true
+      },
+      {
+        "record_index": 1,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "b3cffee9d289cbae93fcb4070fc7ef11f9114dfe1a4d5e4b9edd4e49bcc017e4",
+        "calculated_hash": "b3cffee9d289cbae93fcb4070fc7ef11f9114dfe1a4d5e4b9edd4e49bcc017e4",
+        "hash_ok": true,
+        "record_valid": true
+      },
+      {
+        "record_index": 2,
+        "schema_ok": true,
+        "format_ok": true,
+        "index_ok": true,
+        "previous_hash_ok": true,
+        "stored_hash": "799523a119216a5e43db82f1ca0079b7e68c1ed631bea022d98ee598cb9d9cdd",
+        "calculated_hash": "799523a119216a5e43db82f1ca0079b7e68c1ed631bea022d98ee598cb9d9cdd",
+        "hash_ok": true,
+        "record_valid": true
+      }
+    ],
+    "observed_checkpoint": {
+      "format": "openbasesearch-audit-v1",
+      "count": 3,
+      "root": "799523a119216a5e43db82f1ca0079b7e68c1ed631bea022d98ee598cb9d9cdd"
+    },
+    "trusted_checkpoint": {
+      "format": "openbasesearch-audit-v1",
+      "count": 4,
+      "root": "04583a9613dd8a4f9d3aff7485a2c104a86c87bf22419a0b9809c37fb538aea7"
+    },
+    "count_matches": false,
+    "root_matches": false,
+    "format_matches": true,
+    "checkpoint_matches": false,
+    "accepted": false,
+    "scenario": "tail_deleted",
+    "label_ru": "Удаление последней записи",
+    "expected_internal_valid": true,
+    "expected_checkpoint_matches": false,
+    "expected_outcome_observed": true
+  }
+]

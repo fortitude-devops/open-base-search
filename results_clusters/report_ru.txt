@@ -1,0 +1,43 @@
+Анализ и кластеризация VCDB
+VERIS Community Database | github.com/vz-risk/VCDB | CC BY-SA 4.0
+
+Полных карточек в кластеризации: 5347
+Выбранное число групп: 2
+Средний silhouette: 0.339
+Устойчивость между выборками (ARI): 0.868
+Чувствительность к упрощению action (ARI): 0.947
+Чувствительность к исключению actor (ARI): 0.178
+Использован запасной выбор без порога устойчивости: FALSE
+
+Группы описывают сходство записанных характеристик, не доказывают первопричины.
+Проверяйте sensitivity.csv: низкий ARI без actor означает зависимость от типа участника, а не универсальную типологию.
+Silhouette — мера разделения, не точность предсказания; ARI — согласованность группировок.
+Порог ARI 0.7 и минимум 2% — эвристики; k выбирается исследовательски.
+Пропуски не заполнены выдуманными фактами. Карточки без одного из 4 семейств исключены только из кластеризации.
+Ноль в матрице означает, что категория не записана; это не доказанное отсутствие свойства.
+
+Группа 1 — карточек: 2478
+ family                          value share_in_cluster
+  actor                       internal        0.9390638
+ action           error:category:error        0.5383374
+ action         misuse:category:misuse        0.4430993
+ action misuse:variety:Privilege abuse        0.3022599
+ action       misuse:vector:LAN access        0.2893462
+   data                        Medical        0.3870056
+  asset                  M - Documents        0.2970137
+  asset                   S - Database        0.3627926
+   data                       Personal        0.5201776
+
+Группа 2 — карточек: 2869
+ family                          value share_in_cluster
+  actor                       external        0.9846636
+ action       hacking:category:hacking        0.7626351
+ action hacking:vector:Web application        0.5311955
+  asset            S - Web application        0.5524573
+ action       malware:category:malware        0.4092018
+ action malware:variety:Backdoor or C2        0.3328686
+ action       malware:variety:Backdoor        0.3293831
+ action   hacking:variety:Exploit vuln        0.3279888
+ action  malware:vector:Direct install        0.2851168
+ action     malware:variety:Ransomware        0.2798885
+

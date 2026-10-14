@@ -1,0 +1,29 @@
+# Local state and generated build files
+.DS_Store
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.build_report/
+.build_slides/
+.chart-data-*/
+*.zip
+
+# Duplicate archive extraction and abandoned supervised experiments
+/OpenBaseSearch/
+/data_ml*/
+/prepare_ml.py
+/test_ml.py
+/README_ML.md
+
+# Optional HIBP exports and redundant binary databases
+/data/
+/results/
+*.sqlite
+*.sqlite3

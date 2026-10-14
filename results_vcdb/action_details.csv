@@ -1,0 +1,170 @@
+"category","dimension","value","records"
+"hacking","vector","Web application",1606
+"hacking","variety","Unknown",1203
+"misuse","variety","Privilege abuse",1081
+"misuse","vector","LAN access",1006
+"error","vector","Unknown",1001
+"malware","variety","Backdoor or C2",963
+"hacking","variety","Exploit vuln",957
+"malware","variety","Backdoor",951
+"error","vector","Carelessness",886
+"malware","variety","Ransomware",845
+"malware","vector","Direct install",835
+"error","variety","Misdelivery",776
+"hacking","variety","Backdoor",747
+"malware","vector","Remote injection",743
+"hacking","vector","Unknown",698
+"misuse","vector","Physical access",379
+"hacking","variety","Use of stolen creds",379
+"social","vector","Email",361
+"social","variety","Phishing",342
+"error","variety","Publishing error",331
+"physical","variety","Theft",306
+"error","variety","Misconfiguration",278
+"error","variety","Disposal error",222
+"misuse","variety","Possession abuse",219
+"malware","vector","Unknown",205
+"hacking","vector","Backdoor",196
+"misuse","variety","Knowledge abuse",187
+"misuse","variety","Data mishandling",186
+"error","variety","Loss",184
+"malware","variety","C2",175
+"malware","vector","Email attachment",173
+"malware","variety","Capture stored data",172
+"malware","variety","Downloader",156
+"misuse","vector","Unknown",154
+"physical","vector","Victim work area",144
+"hacking","variety","Brute force",135
+"physical","variety","Skimmer",129
+"physical","variety","Tampering",126
+"malware","variety","Spyware/Keylogger",124
+"physical","variety","Disabled controls",122
+"malware","variety","Export data",116
+"physical","vector","Victim public area",114
+"malware","variety","Unknown",110
+"malware","variety","Scan network",99
+"hacking","variety","SQLi",93
+"malware","variety","Exploit vuln",90
+"malware","variety","Brute force",88
+"physical","vector","Unknown",80
+"physical","vector","Victim grounds",75
+"malware","variety","Disable controls",68
+"malware","variety","Other",62
+"malware","variety","Rootkit",61
+"social","vector","Unknown",59
+"social","variety","Bribery",56
+"error","variety","Other",54
+"physical","vector","Personal vehicle",53
+"physical","vector","Public facility",51
+"misuse","variety","Unapproved hardware",50
+"social","vector","In-person",47
+"malware","variety","Capture app data",45
+"error","vector","Inadequate processes",42
+"social","variety","Pretexting",42
+"error","variety","Programming error",42
+"misuse","vector","Remote access",42
+"physical","variety","Surveillance",42
+"error","variety","Gaffe",40
+"misuse","variety","Unknown",38
+"physical","vector","Partner facility",36
+"error","variety","Unknown",35
+"physical","vector","Victim secure area",35
+"hacking","variety","Abuse of functionality",34
+"hacking","variety","Other",28
+"hacking","vector","Other",27
+"misuse","vector","Non-corporate",26
+"physical","variety","Bypassed controls",24
+"misuse","vector","Other",24
+"hacking","vector","Partner",21
+"malware","variety","RAM scraper",21
+"physical","variety","Assault",19
+"malware","vector","Web application",19
+"malware","vector","Web application - drive-by",19
+"misuse","variety","Email misuse",18
+"social","variety","Extortion",18
+"misuse","variety","Net misuse",17
+"social","vector","Phone",15
+"hacking","variety","Forced browsing",14
+"social","vector","Documents",13
+"social","variety","Forgery",13
+"physical","vector","Personal residence",13
+"social","vector","SMS",13
+"social","variety","Influence",12
+"error","variety","Malfunction",12
+"error","vector","Other",12
+"hacking","vector","Physical access",12
+"social","variety","Unknown",12
+"social","variety","Other",11
+"physical","variety","Snooping",11
+"hacking","vector","Command shell",10
+"hacking","vector","Desktop sharing",10
+"hacking","vector","Desktop sharing software",10
+"malware","vector","Email link",10
+"error","vector","Inadequate technology",9
+"misuse","variety","Unapproved workaround",9
+"malware","vector","Download by malware",8
+"misuse","variety","Unapproved software",8
+"hacking","variety","AitM",7
+"misuse","variety","Illicit content",7
+"malware","variety","Packet sniffer",7
+"error","vector","Random error",7
+"misuse","variety","Snap picture",7
+"hacking","vector","VPN",7
+"social","vector","Web application",7
+"error","variety","Data entry error",6
+"hacking","variety","DoS",6
+"error","vector","Inadequate personnel",6
+"physical","vector","Partner vehicle",6
+"malware","variety","Adminware",5
+"error","variety","Classification error",5
+"hacking","variety","Exploit misconfig",5
+"misuse","variety","Other",5
+"malware","variety","Password dumper",5
+"error","variety","Maintenance error",4
+"hacking","variety","OS commanding",4
+"physical","vector","Other",4
+"hacking","variety","Path traversal",4
+"hacking","variety","Cryptanalysis",3
+"malware","variety","RAT",3
+"malware","variety","Spam",3
+"malware","variety","Trojan",3
+"physical","variety","Wiretapping",3
+"hacking","vector","3rd party desktop",2
+"hacking","variety","Buffer overflow",2
+"physical","variety","Connection",2
+"malware","variety","Destroy data",2
+"social","variety","Elicitation",2
+"social","vector","IM",2
+"malware","vector","Other",2
+"hacking","variety","Profile host",2
+"physical","vector","Public vehicle",2
+"malware","vector","Removable media",2
+"social","variety","Scam",2
+"social","vector","Social media",2
+"social","variety","Spam",2
+"hacking","variety","SSI injection",2
+"physical","variety","Unknown",2
+"misuse","vector","Web application",2
+"hacking","variety","XSS",2
+"malware","variety","Adware",1
+"social","variety","Baiting",1
+"error","variety","Capacity shortage",1
+"malware","variety","Click fraud and cryptocurrency mining",1
+"malware","variety","Client-side attack",1
+"malware","vector","Email",1
+"malware","vector","Email unknown",1
+"environmental","variety","Fire",1
+"environmental","variety","Hurricane",1
+"error","variety","Misinformation",1
+"malware","vector","Network propagation",1
+"physical","variety","Other",1
+"error","variety","Physical accidents",1
+"social","variety","Propaganda",1
+"social","vector","Removable media",1
+"hacking","variety","Reverse engineering",1
+"hacking","variety","Session fixation",1
+"hacking","variety","Session prediction",1
+"hacking","variety","Session replay",1
+"social","vector","Software",1
+"malware","vector","Software update",1
+"malware","vector","Web application - download",1

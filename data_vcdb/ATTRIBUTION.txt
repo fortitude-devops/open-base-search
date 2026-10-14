@@ -1,0 +1,5 @@
+Derived from VERIS Community Database, vz-risk and contributors.
+https://github.com/vz-risk/VCDB
+Data and derived data outputs: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Validated directory only; structured fields exported; free-text notes, summaries and actor names omitted. Source IDs retained, filename used as record_id. No synthetic observations.

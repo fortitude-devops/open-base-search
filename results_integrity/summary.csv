@@ -1,0 +1,5 @@
+scenario,label_ru,internal_valid,count_matches,root_matches,checkpoint_matches,accepted,expected_outcome_observed
+unchanged,Неизменный журнал,True,True,True,True,True,True
+tamper_without_rehash,Подмена без пересчёта,False,True,True,True,False,True
+tamper_with_full_rehash,Подмена с полным пересчётом,True,True,False,False,False,True
+tail_deleted,Удаление последней записи,True,False,False,False,False,True

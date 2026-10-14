@@ -1,0 +1,36 @@
+{
+  "source": "VERIS Community Database, vz-risk and contributors",
+  "url": "https://github.com/vz-risk/VCDB",
+  "license": "CC BY-SA 4.0",
+  "source_records": 10047,
+  "eligible_records": 6911,
+  "complete_core_records": 5347,
+  "binary_features": 253,
+  "families": [
+    "action",
+    "actor",
+    "asset",
+    "data"
+  ],
+  "input_sha256": {
+    "incidents.csv": "2cabf97064a2477d81a05e9c8621a36d4fa1ea23c2fe15600350b97a0eade449",
+    "features.csv": "681dd24576376b610e23ccfcd950083c5fe3487281bcf4d30bc3ab597f70c526",
+    "actions.csv": "d47412405c6ece65f4b950c32be3cc8736ae4356f74cf030bacc2c291236fac2"
+  },
+  "source_manifest": {
+    "source": "VERIS Community Database (VCDB), vz-risk and contributors",
+    "repository": "https://github.com/vz-risk/VCDB",
+    "commit": "f6f98c00f66ab35f5b49977a5852ce94a5bb31d1",
+    "archive_sha256": "3882cbd28f587a6a0d39a68b68e8bbf64652e91530ce2a1e8d5be64cc7e8f385",
+    "collected_at": "2026-10-01T11:14:20.655053+00:00",
+    "license": "CC BY-SA 4.0",
+    "records": 10047,
+    "action_rows": 46347,
+    "feature_rows": 197553,
+    "structured_fields": 80,
+    "id_collision_records": 67,
+    "incident_columns": 32,
+    "transformations": "Validated directory only; structured fields exported; free-text notes, summaries and actor names omitted. Source IDs retained, filename used as record_id. No synthetic observations."
+  },
+  "rules": "Complete four-family core; unknown/NA tokens omitted; no numerical imputation. Zero means token not recorded, not proven absence. IDs and metadata excluded from distance."
+}

@@ -1,0 +1,3 @@
+"cluster","records","share","median_records","size_known","mean_recorded_tokens","largest_known_org_share","medoid_id","medoid_source"
+1,2478,0.463437441556013,703,1477,6.3046811945117,0.0238095238095238,"aaf37ce3-3696-49b1-9281-7f7b90cfa905","https://github.com/vz-risk/VCDB/blob/f6f98c00f66ab35f5b49977a5852ce94a5bb31d1/data/json/validated/AAF37CE3-3696-49B1-9281-7F7B90CFA905.json"
+2,2869,0.536562558443987,9000,1076,9.54548623213661,0.00522830254444057,"78349ece-f822-4cf2-99b9-7c8961b7fe55","https://github.com/vz-risk/VCDB/blob/f6f98c00f66ab35f5b49977a5852ce94a5bb31d1/data/json/validated/78349ECE-F822-4CF2-99B9-7C8961B7FE55.json"

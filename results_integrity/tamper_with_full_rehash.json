@@ -1,0 +1,54 @@
+[
+  {
+    "format": "openbasesearch-audit-v1",
+    "index": 0,
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "event": {
+      "event_id": "demo-001",
+      "organization": "Synthetic Organization A",
+      "action": "register_incident",
+      "incident_id": "synthetic-001",
+      "version": 1
+    },
+    "hash": "20d3740e735b89f4d60ba4ab2e71c281a87ab186342b90f56d7ecd2b892f3f86"
+  },
+  {
+    "format": "openbasesearch-audit-v1",
+    "index": 1,
+    "previous_hash": "20d3740e735b89f4d60ba4ab2e71c281a87ab186342b90f56d7ecd2b892f3f86",
+    "event": {
+      "event_id": "demo-002",
+      "organization": "Synthetic Organization A",
+      "action": "revise_incident",
+      "incident_id": "synthetic-001",
+      "version": 99
+    },
+    "hash": "f5ea2e852eac4aa7615a92e24189c6b7063f6f4872ae9c3abb124a9fb55caa1f"
+  },
+  {
+    "format": "openbasesearch-audit-v1",
+    "index": 2,
+    "previous_hash": "f5ea2e852eac4aa7615a92e24189c6b7063f6f4872ae9c3abb124a9fb55caa1f",
+    "event": {
+      "event_id": "demo-003",
+      "organization": "Synthetic Organization B",
+      "action": "register_incident",
+      "incident_id": "synthetic-002",
+      "version": 1
+    },
+    "hash": "9d98b2afccc5166ed3ae849b0657b930f37a3df8d2e194074e3309d07c68593b"
+  },
+  {
+    "format": "openbasesearch-audit-v1",
+    "index": 3,
+    "previous_hash": "9d98b2afccc5166ed3ae849b0657b930f37a3df8d2e194074e3309d07c68593b",
+    "event": {
+      "event_id": "demo-004",
+      "organization": "Synthetic Organization B",
+      "action": "review_incident",
+      "incident_id": "synthetic-002",
+      "version": 1
+    },
+    "hash": "daba7757a1c24a0f3a14f7bb0dec15779fae6d120e3338b805fd76cf6c9b90cd"
+  }
+]
